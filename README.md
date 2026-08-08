@@ -48,6 +48,7 @@ This project was converted from a Google Colab notebook. See "Summary of all mod
 
 Project structure
 Arabic_Meeting_Summarizer/
+Arabic_Meeting_Summarizer/
 │
 ├── data/
 │   ├── raw/            # Downloaded / input audio files land here
@@ -72,7 +73,6 @@ Arabic_Meeting_Summarizer/
 ├── README.md
 ├── .gitignore
 └── config.py             # All settings: URL, model names, paths
-What each piece is for:
 
 
 
