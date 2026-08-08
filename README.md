@@ -44,6 +44,8 @@ Produces a hybrid summary: Mistral Saba 24B reads and understands the Arabic tra
 Optionally evaluates the summary with ROUGE, BERTScore, and an LLM-as-a-Judge score (Gemini).
 This project was converted from a Google Colab notebook. See "Summary of all modifications made" at the end of this file for exactly what changed and why.
 
+
+
 Project structure
 Arabic_Meeting_Summarizer/
 │
@@ -71,6 +73,9 @@ Arabic_Meeting_Summarizer/
 ├── .gitignore
 └── config.py             # All settings: URL, model names, paths
 What each piece is for:
+
+
+
 
 File	Purpose
 config.py	Single place to change the YouTube URL, model names, fast/accurate mode, and file paths. Reads API keys from environment variables / .env.
