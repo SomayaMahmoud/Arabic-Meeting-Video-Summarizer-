@@ -1,0 +1,31 @@
+# Core ASR
+faster-whisper>=1.0.0
+ctranslate2>=3.25.0
+
+# Audio download / processing
+yt-dlp
+imageio-ffmpeg
+soundfile
+torch
+torchaudio
+
+# System / utility
+psutil
+python-dotenv
+
+# LLM API clients
+openai>=1.0.0
+google-genai>=1.64.0,<2.0.0
+google-auth==2.47.0
+
+# Report rendering
+markdown2
+
+# Evaluation (optional, only needed for --evaluate)
+rouge-score
+bert-score
+
+# RAG chatbot (optional, only needed for src/rag_cli.py)
+sentence-transformers
+faiss-cpu
+rank-bm25
